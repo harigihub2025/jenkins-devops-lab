@@ -2,22 +2,19 @@ pipeline {
     agent any
 
     stages {
-        stage('Build') {
+
+        stage('Build Docker Image') {
             steps {
-                echo 'Building Application...'
+                sh 'sudo docker build -t myapp:v2 .'
             }
         }
 
-        stage('Test') {
+        stage('Run Container') {
             steps {
-                echo 'Running Tests...'
+                sh 'sudo docker rm -f myapp-container || true'
+                sh 'sudo docker run -d -p 8081:80 --name myapp-container myapp:v2'
             }
         }
 
-        stage('Deploy') {
-            steps {
-                echo 'Deploying Application...'
-            }
-        }
     }
 }
