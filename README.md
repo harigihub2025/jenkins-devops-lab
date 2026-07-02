@@ -26,3 +26,23 @@ jenkins-devops-lab/
 - ✅ HTML Web Application Deployment
 - ✅ Project Documentation
 - ✅ Project Screenshots
+
+## Skills Demonstrated
+
+- Git
+- GitHub
+- Linux
+- Jenkins
+- Docker
+- CI/CD Pipeline
+- HTML
+- Shell Scripting (Basic)
+
+## Future Enhancements
+
+- Kubernetes Deployment
+- AWS EC2 Deployment
+- SonarQube Integration
+- Maven Build Automation
+- Terraform Infrastructure
+- Monitoring using Prometheus & Grafana
