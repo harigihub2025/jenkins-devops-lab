@@ -1,38 +1,28 @@
-# Jenkins DevOps Lab
-
-## Project Overview
-
-This repository contains my hands-on DevOps practice projects.
-
-## Technologies Used
-
-- Linux
-- Git
-- GitHub
-- Jenkins
-- Docker
-- HTML
-
-## Project Workflow
-
-GitHub → Jenkins → Docker → Web Application
-
 ## Repository Structure
 
-Dockerfile
-Jenkinsfile
-README.md
-index.html
+```text
+jenkins-devops-lab/
+│── Dockerfile
+│── Dockerfile.jenkins.txt
+│── Jenkinsfile
+│── README.md
+│── index.html
+│
+├── images/
+│   ├── TOPOLOGY DIAGRAM.jpeg
+│   ├── WORKFLOW & PING TEST DIAGRAM.jpeg
+│   ├── DOCKER OUTPUT.jpeg
+│   └── JENKNS OUTPUT.jpeg
+│
+└── docs/
+    └── project-overview.md
+```
 
-## Screenshots
+## Features
 
-Screenshots will be added soon.
-
-## Future Enhancements
-
-- Kubernetes
-- SonarQube
-- Maven
-- Prometheus
-- Grafana
-- AWS Deployment
+- ✅ GitHub Source Code Management
+- ✅ Jenkins Pipeline Automation
+- ✅ Docker Container Deployment
+- ✅ HTML Web Application Deployment
+- ✅ Project Documentation
+- ✅ Project Screenshots
